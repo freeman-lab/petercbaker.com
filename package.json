@@ -1,0 +1,40 @@
+{
+  "name": "petercbaker.com",
+  "version": "1.0.0",
+  "description": "author website for peter c baker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeman-lab/petercbaker.com.git"
+  },
+  "prettier": {
+    "$schema": "http://json.schemastore.org/prettierrc",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 80,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": true
+  },
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeman-lab/petercbaker.com/issues"
+  },
+  "homepage": "https://github.com/freeman-lab/petercbaker.com#readme",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mdx-js/react": "^1.6.22",
+    "next": "^12.0.10",
+    "theme-ui": "^0.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
