@@ -34,10 +34,10 @@ const Guide = ({ color = 'muted' }) => {
     >
       <Container>
         <Box sx={{ display: ['none', 'none', 'initial', 'initial'] }}>
-          <GuideColumns indices={[1, 2, 3, 4, 5, 6]} />
+          <GuideColumns indices={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]} />
         </Box>
         <Box sx={{ display: ['none', 'initial', 'none', 'none'] }}>
-          <GuideColumns indices={[1, 2, 3, 4, 5, 6]} />
+          <GuideColumns indices={[1, 2, 3, 4, 5, 6, 7, 8]} />
         </Box>
         <Box sx={{ display: ['initial', 'none', 'none', 'none'] }}>
           <GuideColumns indices={[1, 2, 3, 4, 5, 6]} />
@@ -61,8 +61,7 @@ function GuideColumns({ indices }) {
               height: '100vh',
               opacity: 0.4,
             }}
-          >
-          </Column>
+          ></Column>
         )
       })}
     </Row>

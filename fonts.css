@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'arizona-flare';
+    src: url('https://fonts.freeman.land/arizona-flare/ABCArizonaFlare-Light.woff2') format('woff2'),
+         url('https://fonts.freeman.land/arizona-flare/ABCArizonaFlare-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arizona-flare';
+    src: url('https://fonts.freeman.land/arizona-flare/ABCArizonaFlare-LightItalic.woff2') format('woff2'),
+         url('https://fonts.freeman.land/arizona-flare/ABCArizonaFlare-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'garton';
+    src: url('https://fonts.freeman.land/garton/garton-regular-pro.eot');
+    src: url('https://fonts.freeman.land/garton/garton-regular-pro.eot?#iefix') format('embedded-opentype'),
+         url('https://fonts.freeman.land/garton/garton-regular-pro.woff2') format('woff2'),
+         url('https://fonts.freeman.land/garton/garton-regular-pro.woff') format('woff'),
+         url('https://fonts.freeman.land/garton/garton-regular-pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

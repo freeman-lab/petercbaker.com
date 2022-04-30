@@ -1,11 +1,10 @@
 export const theme = {
   space: [0, 4, 8, 16, 24, 32, 48, 64, 96, 128, 172, 256, 512],
   fonts: {
-    body:
-      'ABC Arizona Flare Trial',
-    mono: 'Garton Pro',
+    body: 'arizona-flare',
+    mono: 'garton',
   },
-  fontSizes: [12, 14, 16, 18, 24, 34, 48, 64, 80, 96, 128],
+  fontSizes: [12, 14, 16, 20, 28, 40, 48, 64, 80, 96, 128],
   letterSpacings: {
     body: '0.01em',
     mono: '0.07em',
@@ -23,6 +22,9 @@ export const theme = {
     background: 'black',
     primary: '#ebebec',
     secondary: '#808080',
+    teal: '#4E9EB1',
+    tan: '#D4B7A0',
+    purple: '#8375B4'
   },
   layout: {
     container: {
@@ -53,10 +55,10 @@ export const theme = {
           color: 'text',
         },
         '&:hover': {
-          color: 'secondary',
-          borderBottom: ({colors}) => `solid 1px ${colors.secondary}`,
+          opacity: '0.6'
         },
       },
+      transition: 'opacity 0.15s',
       textDecoration: 'none',
       borderBottom: ({colors}) => `solid 1px ${colors.primary}`,
       cursor: 'pointer',

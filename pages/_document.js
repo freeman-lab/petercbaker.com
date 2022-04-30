@@ -5,7 +5,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang='en'>
-        <Head/>
+        <Head />
         <body>
           <InitializeColorMode />
           <Main />
