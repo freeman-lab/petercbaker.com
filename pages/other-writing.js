@@ -1,5 +1,6 @@
 import { Box, Grid, Flex, Link, Container } from 'theme-ui'
 import { Row, Column, Layout } from '../components'
+import Entry from '../components/entry'
 
 const contents = [
   {
@@ -32,43 +33,7 @@ const contents = [
   },
 ]
 
-const Entry = ({ data }) => {
-  return (
-    <Box sx={{ mb: [6, 7, 8, 10] }}>
-      <Link
-        href={data.url}
-        sx={{
-          '&:hover > #box > #arrow': {
-            transform: 'rotate(45deg) translate(3px,-3px)',
-          },
-        }}
-      >
-        <Box sx={{ fontSize: [4, 4, 4, 5], letterSpacing: '0.07em' }}>
-          {data.title}
-        </Box>
-        <Box sx={{ fontSize: [4, 4, 4, 5] }} id='box'>
-          <i>{data.source}</i>
-          <Box
-            as='span'
-            id='arrow'
-            sx={{
-              ml: [2],
-              transition: 'transform 0.15s',
-              display: 'inline-block',
-            }}
-          >
-            ↗
-          </Box>
-        </Box>
-        <Box sx={{ fontSize: [3, 3, 3, 4], mt: [2, 2, 2, 3] }}>
-          {data.summary}
-        </Box>
-      </Link>
-    </Box>
-  )
-}
-
-const About = () => {
+const OtherWriting = () => {
   return (
     <Layout route='/other-writing'>
       <Row sx={{ mt: [8, 9, 9, 11] }}>
@@ -83,7 +48,7 @@ const About = () => {
           happened and writing about it eloquently.
         </Column>
       </Row>
-      <Row sx={{ mt: [8, 9, 9, 10] }}>
+      <Row sx={{ mt: [8, 8, 8, 9] }}>
         <Column
           start={[1, 1, 2, 2]}
           width={[6, 3, 4, 4]}
@@ -111,4 +76,4 @@ const About = () => {
   )
 }
 
-export default About
+export default OtherWriting

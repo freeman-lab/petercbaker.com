@@ -19,7 +19,7 @@ export const theme = {
   },
   colors: {
     text: '#ebebec',
-    background: 'black',
+    background: '#000000',
     primary: '#ebebec',
     secondary: '#808080',
     teal: '#4E9EB1',

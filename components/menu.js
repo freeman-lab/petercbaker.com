@@ -91,17 +91,20 @@ const Menu = ({ route }) => {
           <Row>
             <Column start={[2, 2, 3, 3]} width={[5, 6, 8, 8]}>
               <Box sx={{ mt: [8, 8, 9, 11] }}>
-                <Link href='/'>
-                  <Box sx={sx.menu} onClick={onClick(route, '/', setExpanded)}>
-                    Home
-                  </Box>
-                </Link>
                 <Link href='/about'>
                   <Box
                     sx={sx.menu}
                     onClick={onClick(route, '/about', setExpanded)}
                   >
                     About
+                  </Box>
+                </Link>
+                <Link href='/press'>
+                  <Box
+                    sx={sx.menu}
+                    onClick={onClick(route, '/press', setExpanded)}
+                  >
+                    Press
                   </Box>
                 </Link>
                 <Link href='/novel'>
