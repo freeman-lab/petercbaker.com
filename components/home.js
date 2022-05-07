@@ -14,9 +14,11 @@ const Home = ({ route }) => {
 				<Link href='/' sx={{'&:hover': {opacity: 1}, border: 'none'}}>
 				<IconButton
 					sx={{
-						width: [42, 52, 52, 72],
-						height: [42, 52, 52, 72],
+						width: [62, 52, 52, 72],
+						height: [62, 52, 52, 72],
 						cursor: 'pointer',
+						p: ['14px', 1, 1, 1],
+            m: ['-10px', 0, 0, 0],
 					}}
 				>
 					<Box

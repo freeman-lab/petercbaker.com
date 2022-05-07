@@ -34,10 +34,13 @@ const Menu = ({ route }) => {
       >
         <IconButton
           sx={{
-            width: [42, 52, 52, 72],
-            height: [42, 52, 52, 72],
+            width: [62, 52, 52, 72],
+            height: [62, 52, 52, 72],
             cursor: 'pointer',
+            p: ['14px', 1, 1, 1],
+            m: ['-10px', 0, 0, 0],
           }}
+          onClick={() => setExpanded((prev) => !prev)}
         >
           <Box
             as='svg'
@@ -50,7 +53,6 @@ const Menu = ({ route }) => {
               stroke: 'primary',
               strokeWidth: [3, 3, 3, 3],
             }}
-            onClick={() => setExpanded((prev) => !prev)}
           >
             <circle cx='31.5' cy='31.5' r='30.5' />
             {!expanded && (
