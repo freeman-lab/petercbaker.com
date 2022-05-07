@@ -55,7 +55,6 @@ const Novel = () => {
 							mb: [5],
 							mt: [0, -2, -2, -2],
 							fontSize: [6, 6, 6, 7],
-							fontWeight: 800,
 							letterSpacing: '0.01em',
 						}}
 					>
@@ -80,7 +79,6 @@ const Novel = () => {
 					sx={{
 						mt: [8, 8, 8, 9],
 						fontSize: [5, 5, 5, 6],
-						fontWeight: 800,
 						letterSpacing: '0.01em',
 					}}
 				>

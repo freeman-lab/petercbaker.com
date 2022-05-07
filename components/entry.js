@@ -6,15 +6,20 @@ const Entry = ({ data }) => {
       <Link
         href={data.url}
         sx={{
-          '&:hover > #box > #arrow': {
-            transform: 'rotate(45deg) translate(3px,-3px)',
+          '@media (hover: hover) and (pointer: fine)': {
+            '&:hover > #box > #arrow': {
+              transform: 'rotate(45deg) translate(3px,-3px)',
+            },
           },
         }}
       >
         <Box sx={{ fontSize: [4, 4, 4, 5], letterSpacing: '0.07em' }}>
           {data.title}
         </Box>
-        <Box sx={{ fontSize: [4, 4, 4, 5], lineHeight: '1.1em', mt: [1] }} id='box'>
+        <Box
+          sx={{ fontSize: [4, 4, 4, 5], lineHeight: '1.1em', mt: [1] }}
+          id='box'
+        >
           <i>{data.source}</i>
           <Box
             as='span'
