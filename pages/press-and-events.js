@@ -53,20 +53,20 @@ const PressAndEvents = () => {
           Reviews
         </Column>
         <Column
-          start={[1, 5, 5, 5]}
-          width={[6, 3, 6, 6]}
+          start={[1, 4, 5, 5]}
+          width={[6, 4, 6, 6]}
           sx={{
             fontSize: [6, 6, 6, 7],
             letterSpacing: '0.01em',
           }}
         >
-          <Row columns={2} sx={{mt: ['12px']}}>
+          <Row columns={[1, 1, 2, 2]} sx={{mt: ['12px']}}>
             <Column start={1} width={1}>
             {reviews.filter((d, i) => i % 2 == 0).map((d) => (
               <Entry key={d.title} data={d} />
             ))}
             </Column>
-            <Column start={2} width={1}>
+            <Column start={[1, 1, 2, 2]} width={1}>
             {reviews.filter((d, i) => i % 2 == 1).map((d) => (
               <Entry key={d.title} data={d} />
             ))}
@@ -74,7 +74,7 @@ const PressAndEvents = () => {
           </Row>
         </Column>
       </Row>
-      <Row sx={{ mt: [7, 8, 8, 10] }}>
+      <Row sx={{ mt: [6, 8, 8, 10] }}>
         <Column
           start={[1, 1, 2, 2]}
           width={[6, 3, 2, 2]}
@@ -87,14 +87,14 @@ const PressAndEvents = () => {
           Events
         </Column>
         <Column
-          start={[1, 5, 5, 5]}
-          width={[6, 3, 6, 6]}
+          start={[1, 4, 5, 5]}
+          width={[6, 4, 6, 6]}
           sx={{
             fontSize: [6, 6, 6, 7],
             letterSpacing: '0.01em',
           }}
         >
-          <Row columns={2} sx={{mt: ['12px']}}>
+          <Row columns={[1, 1, 2, 2]} sx={{mt: ['12px']}}>
             {events.map((d) => (
               <Event key={d.title} data={d} />
             ))}
