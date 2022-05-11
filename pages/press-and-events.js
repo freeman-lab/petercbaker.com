@@ -9,6 +9,7 @@ const events = [
     venue: 'Bookends & Beginnings',
     location: 'Evanston, IL',
     summary: 'Reading and Q+A with Diego Báez hosted at Bookends & Beginnings',
+    url: 'https://www.bookendsandbeginnings.com/event/peter-c-baker-conversation-diego-b%C3%A1ez-planes'
   },
   {
     time: 'June 7 @ 6pm',

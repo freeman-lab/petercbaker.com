@@ -21,7 +21,7 @@ const Entry = ({ data }) => {
           id='box'
         >
           <i>{data.source}</i>
-          <Box
+          {data.url && <Box
             as='span'
             id='arrow'
             sx={{
@@ -31,7 +31,7 @@ const Entry = ({ data }) => {
             }}
           >
             ↗
-          </Box>
+          </Box>}
         </Box>
         {data.location && (
           <Box sx={{ fontSize: [3, 3, 3, 4] }}>{data.location}</Box>

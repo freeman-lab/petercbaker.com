@@ -8,28 +8,28 @@ const contents = [
     source: 'New York Review of Books',
     summary:
       'Review essay about US pedestrian fatalities and car/street culture during the pandemic.',
-    url: '',
+    url: '/',
   },
   {
     title: 'The Bloodhound',
     source: 'New York Review of Books',
     summary:
       'Review essay about US pedestrian fatalities and car/street culture during the pandemic.',
-    url: '',
+    url: '/',
   },
   {
     title: 'This, Too, Was History',
     source: 'The Point',
     summary:
       'Dispatch from Chicago on police torture, reparations, and high school history class.',
-    url: '',
+    url: '/',
   },
   {
     title: 'Bad ends',
     source: 'New York Times Magazine',
     summary:
       'On George Clooney’s “Midnight Sky” and disaster movies and disaster politics.',
-    url: '',
+    url: '/',
   },
 ]
 
