@@ -8,14 +8,20 @@ const contents = [
     source: 'New York Review of Books',
     summary:
       'Review essay about US pedestrian fatalities and car/street culture during the pandemic.',
-    url: '/',
+    url: 'https://www.nybooks.com/articles/2021/07/22/death-drives-pedestrian-fatalities/',
   },
   {
     title: 'The Bloodhound',
     source: 'New York Review of Books',
     summary:
       'Review essay about US pedestrian fatalities and car/street culture during the pandemic.',
-    url: '/',
+    url: 'https://www.nybooks.com/articles/2021/03/11/nicholson-baker-bloodhound/',
+  },
+  {
+    title: 'A Legacy of Torture in Chicago',
+    source: 'New York Review of Books',
+    summary: 'Review-essay on Laurence Ralph’s “The Torture Letters.”',
+    url: 'https://www.nybooks.com/articles/2020/07/02/legacy-police-torture-chicago/'
   },
   {
     title: 'This, Too, Was History',
@@ -25,11 +31,18 @@ const contents = [
     url: '/',
   },
   {
-    title: 'Bad ends',
-    source: 'New York Times Magazine',
+    title: 'Collision Course',
+    source: 'The Guardian',
     summary:
-      'On George Clooney’s “Midnight Sky” and disaster movies and disaster politics.',
-    url: '/',
+      'Essay on Silicon Valley and the pedestrian death crisis.',
+    url: 'https://www.theguardian.com/technology/2019/oct/03/collision-course-pedestrian-deaths-rising-driverless-cars',
+  },
+  {
+    title: 'We The People',
+    source: 'The Guardian',
+    summary:
+      'Essay on what we talk about when we talk about “populism.”',
+    url: 'https://www.theguardian.com/news/2019/jan/10/we-the-people-the-battle-to-define-populism',
   },
 ]
 
@@ -59,7 +72,7 @@ const OtherWriting = () => {
           Below, I’ve linked to some recent favorites.
         </Column>
       </Row>
-      <Row sx={{ mt: [8, 8, 8, 9] }}>
+      <Row sx={{ mt: [6, 7, 7, 9] }}>
         <Column
           start={[1, 1, 2, 2]}
           width={[6, 3, 4, 4]}

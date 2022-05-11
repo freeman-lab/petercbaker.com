@@ -80,7 +80,7 @@ const PressAndEvents = () => {
           </Row>
         </Column>
       </Row>
-      <Row sx={{ mt: [6, 8, 8, 10] }}>
+      <Row sx={{ mt: [6, 7, 7, 9] }}>
         <Column
           start={[1, 1, 2, 2]}
           width={[6, 3, 2, 2]}
