@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 const Meta = () => {
-  const titleProp = "Peter C. Baker"
+  const titleProp = 'Peter C. Baker'
   const descriptionProp = ''
   const cardProp = ''
 

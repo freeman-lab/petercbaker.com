@@ -13,7 +13,8 @@ const events = [
   {
     time: 'June 7 @ 6pm',
     location: 'Chicago, IL (virtual)',
-    summary: "w/ Phil Klay and The Point magazine hosted at Chicago's Seminary Co-op Bookstore",
+    summary:
+      "w/ Phil Klay and The Point magazine hosted at Chicago's Seminary Co-op Bookstore",
   },
 ]
 
@@ -60,16 +61,20 @@ const PressAndEvents = () => {
             letterSpacing: '0.01em',
           }}
         >
-          <Row columns={[1, 1, 2, 2]} sx={{mt: ['12px']}}>
+          <Row columns={[1, 1, 2, 2]} sx={{ mt: ['12px'] }}>
             <Column start={1} width={1}>
-            {reviews.filter((d, i) => i % 2 == 0).map((d) => (
-              <Entry key={d.title} data={d} />
-            ))}
+              {reviews
+                .filter((d, i) => i % 2 == 0)
+                .map((d) => (
+                  <Entry key={d.title} data={d} />
+                ))}
             </Column>
             <Column start={[1, 1, 2, 2]} width={1}>
-            {reviews.filter((d, i) => i % 2 == 1).map((d) => (
-              <Entry key={d.title} data={d} />
-            ))}
+              {reviews
+                .filter((d, i) => i % 2 == 1)
+                .map((d) => (
+                  <Entry key={d.title} data={d} />
+                ))}
             </Column>
           </Row>
         </Column>
@@ -94,14 +99,13 @@ const PressAndEvents = () => {
             letterSpacing: '0.01em',
           }}
         >
-          <Row columns={[1, 1, 2, 2]} sx={{mt: ['12px']}}>
+          <Row columns={[1, 1, 2, 2]} sx={{ mt: ['12px'] }}>
             {events.map((d) => (
               <Event key={d.title} data={d} />
             ))}
           </Row>
         </Column>
       </Row>
-      
     </Layout>
   )
 }

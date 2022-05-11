@@ -12,7 +12,7 @@ const Layout = ({ children, margin = true, route }) => {
       <Home route={route} />
       <Menu route={route} />
       <FadeIn>
-      <Label route={route} />
+        <Label route={route} />
         <Container sx={{ mb: margin ? [7, 8, 8, 9] : [0] }}>
           {children}
         </Container>

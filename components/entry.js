@@ -33,7 +33,9 @@ const Entry = ({ data }) => {
             ↗
           </Box>
         </Box>
-        {data.location && <Box sx={{fontSize: [3, 3, 3, 4]}}>{data.location}</Box>}
+        {data.location && (
+          <Box sx={{ fontSize: [3, 3, 3, 4] }}>{data.location}</Box>
+        )}
         <Box sx={{ fontSize: [3, 3, 3, 4], mt: [2, 2, 2, 3] }}>
           {data.summary}
         </Box>

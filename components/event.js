@@ -13,7 +13,7 @@ const Event = ({ data }) => {
           },
         }}
       >
-        <Box sx={{fontSize: [4, 4, 4, 5]}}>{data.location}</Box>
+        <Box sx={{ fontSize: [4, 4, 4, 5] }}>{data.location}</Box>
         <Box
           sx={{ fontSize: [4, 4, 4, 5], lineHeight: '1.1em', mt: [1] }}
           id='box'
@@ -31,7 +31,7 @@ const Event = ({ data }) => {
             ↗
           </Box>
         </Box>
-        
+
         <Box sx={{ fontSize: [3, 3, 3, 4], mt: [2, 2, 2, 3] }}>
           {data.summary}
         </Box>
