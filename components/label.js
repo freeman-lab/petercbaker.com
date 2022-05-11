@@ -1,9 +1,9 @@
 import { Box } from 'theme-ui'
 
 const display = {
-	'/press': 'Press',
+	'/press': 'Press & Events',
 	'/novel': 'Novel',
-	'/other-writing': 'Other writing',
+	'/other-writing': 'Other Writing',
 	'/about': 'About'
 }
 

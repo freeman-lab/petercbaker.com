@@ -10,11 +10,10 @@ const About = () => {
           width={[5, 6, 6, 5]}
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
-          Peter’s essays, criticism, reportage, and fiction have been published
-          in <i>The New Yorker</i>, <i>The New York Review of Books</i>,{' '}
-          <i>The Guardian</i>, <i>The New York Times Magazine</i>,{' '}
-          <i>The Nation</i>, <i>The Times Literary Supplement</i>, and{' '}
-          <i>Granta</i>. He lives in Evanston, Illinois.
+          <Link href='/novel'>Planes</Link> is my first novel. My essays, criticism,
+          and journalism have been published by <i>The Guardian</i>, <i>The New York
+          Review of Books</i>, <i>The New Yorker</i>, <i>The New York Times Magazine</i>, and
+          elsewhere. I live in Evanston, Illinois.
         </Column>
       </Row>
       <Row sx={{ mt: [8] }}>
@@ -28,10 +27,13 @@ const About = () => {
             <Link href='https://twitter.com/apcbapcb'>@apcbapcb</Link>
           </Box>
           <Box>
-            <i>Newsletter</i>: petercbaker.substack.com
+            <i>Newsletter</i>: <Link href='https://petercbaker.substack.com/'>@substack</Link>
           </Box>
           <Box>
-            <i>Agent</i>: agent@agency.com
+            <i>Agent</i>: <Link href='cclemans@janklow.com'>Chris Clemans</Link>
+          </Box>
+          <Box>
+            <i>Publisher</i>: <Link href='snisbet@penguinrandomhouse.com'>Sarah Nisbet</Link>
           </Box>
         </Column>
       </Row>

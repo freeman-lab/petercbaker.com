@@ -42,10 +42,11 @@ const OtherWriting = () => {
           width={[5, 5, 6, 6]}
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
-          I've written a bunch of cool stuff. My central journalistic themes are
-          making fun of Elon Musk and Tesla, getting angry about how hard it is
-          to walk on sidewalks, and visiting sites at which terrible things have
-          happened and writing about it eloquently.
+          You can find my freelance writing about torture, the horrors of car
+          culture, books, music, and many other topics on my author pages at <Link href='https://www.theguardian.com/profile/peter-c-baker'><i>The
+          Guardian</i></Link>, <Link href='https://www.nybooks.com/contributors/peter-c-baker/'><i>The New Review of Books</i></Link>, and the <Link href='https://www.newyorker.com/contributors/peter-c-baker'><i>New Yorker</i></Link>. I also write
+          frequently for <i>The New York Times</i> magazine. Below, I’ve linked to some
+          recent favorites.
         </Column>
       </Row>
       <Row sx={{ mt: [8, 8, 8, 9] }}>

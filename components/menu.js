@@ -101,14 +101,6 @@ const Menu = ({ route }) => {
                     About
                   </Box>
                 </Link>
-                <Link href='/press'>
-                  <Box
-                    sx={sx.menu}
-                    onClick={onClick(route, '/press', setExpanded)}
-                  >
-                    Press
-                  </Box>
-                </Link>
                 <Link href='/novel'>
                   <Box
                     sx={sx.menu}
@@ -117,12 +109,20 @@ const Menu = ({ route }) => {
                     Novel
                   </Box>
                 </Link>
+                <Link href='/press-and-events'>
+                  <Box
+                    sx={sx.menu}
+                    onClick={onClick(route, '/press-and-events', setExpanded)}
+                  >
+                    Press & Events
+                  </Box>
+                </Link>
                 <Link href='/other-writing'>
                   <Box
                     sx={sx.menu}
                     onClick={onClick(route, '/other-writing', setExpanded)}
                   >
-                    Other writing
+                    Other Writing
                   </Box>
                 </Link>
               </Box>
