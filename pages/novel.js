@@ -77,8 +77,7 @@ const Novel = () => {
             letterSpacing: '0.01em',
           }}
         >
-          Read <Link href='/press-and-events'>reviews</Link> or{' '}
-          <Link href=''>order now</Link>.
+        <Link href=''>Order now</Link>. Read <Link href='/press-and-events'>reviews</Link>.
         </Column>
       </Row>
       <Row sx={{ mt: [6, 6, 6, 7] }}>

@@ -54,11 +54,7 @@ export const theme = {
         '&:active': {
           color: 'text',
         },
-        '&:hover': {
-          opacity: '0.6'
-        },
       },
-      transition: 'opacity 0.15s',
       textDecoration: 'none',
       borderBottom: ({colors}) => `solid 1px ${colors.primary}`,
       cursor: 'pointer',
