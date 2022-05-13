@@ -32,7 +32,7 @@ const Event = ({ data }) => {
           </Box>
         </Box>
 
-        <Box sx={{ fontSize: [3, 3, 3, 4], mt: [2, 2, 2, 3] }}>
+        <Box sx={{ fontSize: [3, 3, 3, 4], mt: [2, 2, 2, 3], textShadow: ({colors}) => `0px 0px 20px ${colors.background}` }}>
           {data.summary}
         </Box>
       </Link>

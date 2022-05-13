@@ -1,4 +1,5 @@
 import { Box, Link } from 'theme-ui'
+import Halo from './halo'
 
 const Entry = ({ data }) => {
   return (
@@ -21,22 +22,24 @@ const Entry = ({ data }) => {
           id='box'
         >
           <i>{data.source}</i>
-          {data.url && <Box
-            as='span'
-            id='arrow'
-            sx={{
-              ml: [2],
-              transition: 'transform 0.15s',
-              display: 'inline-block',
-            }}
-          >
-            ↗
-          </Box>}
+          {data.url && (
+            <Box
+              as='span'
+              id='arrow'
+              sx={{
+                ml: [2],
+                transition: 'transform 0.15s',
+                display: 'inline-block',
+              }}
+            >
+              ↗
+            </Box>
+          )}
         </Box>
         {data.location && (
           <Box sx={{ fontSize: [3, 3, 3, 4] }}>{data.location}</Box>
         )}
-        <Box sx={{ fontSize: [3, 3, 3, 4], mt: [2, 2, 2, 3] }}>
+        <Box sx={{ textShadow: ({colors}) => `0px 0px 20px ${colors.background}`, fontSize: [3, 3, 3, 4], mt: [2, 2, 2, 3] }}>
           {data.summary}
         </Box>
       </Link>

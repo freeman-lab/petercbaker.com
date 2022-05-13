@@ -19,7 +19,7 @@ export const theme = {
   },
   colors: {
     text: '#ebebec',
-    background: '#000000',
+    background: 'rgb(9, 8, 8)',
     primary: '#ebebec',
     secondary: '#808080',
     teal: '#4E9EB1',
@@ -121,7 +121,7 @@ export const theme = {
       mb: [3, 4, 4],
     },
   },
-  breakpoints: ['40em', '64em', '102em'],
+  breakpoints: ['40em', '64em', '102em', '150em'],
   config: {
     initialColorModeName: 'dark',
     printColorModeName: 'dark',

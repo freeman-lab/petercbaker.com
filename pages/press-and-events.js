@@ -66,15 +66,15 @@ const PressAndEvents = () => {
             <Column start={1} width={1}>
               {reviews
                 .filter((d, i) => i % 2 == 0)
-                .map((d) => (
-                  <Entry key={d.title} data={d} />
+                .map((d, i) => (
+                  <Entry key={i} data={d} />
                 ))}
             </Column>
             <Column start={[1, 1, 2, 2]} width={1}>
               {reviews
                 .filter((d, i) => i % 2 == 1)
-                .map((d) => (
-                  <Entry key={d.title} data={d} />
+                .map((d, i) => (
+                  <Entry key={i} data={d} />
                 ))}
             </Column>
           </Row>
@@ -101,12 +101,38 @@ const PressAndEvents = () => {
           }}
         >
           <Row columns={[1, 1, 2, 2]} sx={{ mt: ['12px'] }}>
-            {events.map((d) => (
-              <Event key={d.title} data={d} />
+            {events.map((d, i) => (
+              <Event key={i} data={d} />
             ))}
           </Row>
         </Column>
       </Row>
+      <Box
+        sx={{
+          position: 'fixed',
+          left: 0,
+          top: 0,
+          bg: 'background',
+          width: '100%',
+          height: '100%',
+          zIndex: -1,
+          opacity: 0.7,
+        }}
+      />
+      <Image
+        sx={{
+          objectFit: 'cover',
+          objectPosition: 'center center',
+          height: 'calc(100vh)',
+          opacity: 1,
+          position: 'fixed',
+          left: 0,
+          top: 0,
+          width: '100%',
+          zIndex: -2,
+        }}
+        src='/press-and-events.jpg'
+      />
     </Layout>
   )
 }

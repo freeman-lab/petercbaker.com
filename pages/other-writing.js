@@ -1,6 +1,7 @@
-import { Box, Grid, Flex, Link, Container } from 'theme-ui'
+import { Box, Grid, Image, Flex, Link, Container } from 'theme-ui'
 import { Row, Column, Layout } from '../components'
 import Entry from '../components/entry'
+import Halo from '../components/halo'
 
 const contents = [
   {
@@ -52,7 +53,7 @@ const OtherWriting = () => {
       <Row sx={{ mt: [8, 9, 9, 11] }}>
         <Column
           start={[1, 1, 2, 2]}
-          width={[5, 5, 6, 6]}
+          width={[5, 5, 5, 5]}
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
           You can find my freelance writing about torture, the horrors of car
@@ -96,6 +97,32 @@ const OtherWriting = () => {
             ))}
         </Column>
       </Row>
+      <Box
+        sx={{
+          position: 'fixed',
+          left: 0,
+          top: 0,
+          bg: 'background',
+          width: '100%',
+          height: '100%',
+          zIndex: -1,
+          opacity: 0.7,
+        }}
+      />
+      <Image
+        sx={{
+          objectFit: 'cover',
+          objectPosition: 'center center',
+          height: 'calc(100vh)',
+          opacity: 1,
+          position: 'fixed',
+          left: 0,
+          top: 0,
+          width: '100%',
+          zIndex: -2,
+        }}
+        src='/other-writing.jpg'
+      />
     </Layout>
   )
 }

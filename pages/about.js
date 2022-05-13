@@ -7,7 +7,7 @@ const About = () => {
       <Row sx={{ mt: [8, 9, 9, 11] }}>
         <Column
           start={[1, 1, 2, 2]}
-          width={[5, 6, 6, 5]}
+          width={[5, 6, 5, 5]}
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
           <Link href='/novel'>Planes</Link> is my first novel. My essays,
@@ -49,7 +49,7 @@ const About = () => {
           width: '100%',
           height: '100%',
           zIndex: -1,
-          opacity: 0.3,
+          opacity: 0.4,
         }}
       />
       <Image
@@ -63,7 +63,7 @@ const About = () => {
           width: '100%',
           zIndex: -2,
         }}
-        src='/about.png'
+        src='/about.jpg'
       />
     </Layout>
   )

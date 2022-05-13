@@ -46,7 +46,7 @@ const Index = () => {
           width: '100%',
           height: '100%',
           zIndex: -1,
-          opacity: 0.3,
+          opacity: 0,
         }}
       />
       <Image
@@ -61,7 +61,7 @@ const Index = () => {
           zIndex: -2,
           transform: 'rotate(180deg)',
         }}
-        src='/book.gif'
+        src='/intro.gif'
       />
     </Layout>
   )

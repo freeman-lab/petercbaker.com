@@ -29,7 +29,9 @@ const Review = ({ data }) => {
   return (
     <Box sx={{ mb: [6, 6, 6, 7] }}>
       <Box sx={{ fontSize: [10], mb: [-7], color: 'teal' }}>“</Box>
-      <Box sx={{ fontSize: [3, 3, 3, 4] }}>{data.review}</Box>
+      <Box sx={{ textShadow: ({colors}) => `0px 0px 20px ${colors.background}, 0px 0px 20px ${colors.background}`, fontSize: [3, 3, 3, 4], position: 'relative' }}>
+      {data.review}
+      </Box>
       <Box
         sx={{
           mt: [3],
@@ -49,16 +51,16 @@ const Novel = () => {
   return (
     <Layout route='/novel'>
       <Row sx={{ mt: [8, 9, 9, 11] }}>
-        <Column start={[1, 1, 2, 2]} width={[5, 6, 6, 6]}>
+        <Column start={[1, 1, 2, 2]} width={[5, 6, 5, 5]}>
           <Box sx={{ fontSize: [4, 4, 4, 5], mb: [4] }}>
+            <Box sx={{mb: [3]}}>
             In Rome, Amira waits for news of her husband, stuck in a shadowy
             Moroccan prison.
-            <br />
-            <br />
+            </Box>
+            <Box sx={{mb: [3]}}>
             In small-town North Carolina, Mel learns of a connection between a
             local airline and the CIA’s post-9/11 rendition operations.
-            <br />
-            <br />
+            </Box>
             As the two women’s lives unfold, they begin to resonate like the two
             sides of a tuning fork, creating a story of marriage, friendship,
             and secrecy — of global crimes and their very local effects.
@@ -83,15 +85,15 @@ const Novel = () => {
         <Column start={[1, 1, 2, 2]} width={[6, 3, 4, 4]}>
           {contents
             .filter((d, i) => i % 2 == 0)
-            .map((d) => {
-              return <Review data={d} />
+            .map((d, i) => {
+              return <Review key={i} data={d} />
             })}
         </Column>
         <Column start={[1, 5, 7, 7]} width={[6, 3, 4, 4]}>
           {contents
             .filter((d, i) => i % 2 == 1)
-            .map((d) => {
-              return <Review data={d} />
+            .map((d, i) => {
+              return <Review key={i} data={d} />
             })}
         </Column>
       </Row>
@@ -104,7 +106,7 @@ const Novel = () => {
           width: '100%',
           height: '100%',
           zIndex: -1,
-          opacity: 0.3,
+          opacity: 0.5,
         }}
       />
       <Image
@@ -112,14 +114,14 @@ const Novel = () => {
           objectFit: 'cover',
           objectPosition: 'center center',
           height: 'calc(100vh)',
-          opacity: Math.max(0.2, 1 - y / 400),
+          opacity: 1.0,
           position: 'fixed',
           left: 0,
           top: 0,
           width: '100%',
           zIndex: -2,
         }}
-        src='/novel.png'
+        src='/novel.jpg'
       />
     </Layout>
   )
