@@ -1,6 +1,7 @@
-import { Box, Link, IconButton } from 'theme-ui'
+import Link from 'next/link'
+import { Box, IconButton } from 'theme-ui'
 
-const Home = ({ route }) => {
+const Home = ({ route, setExpanded }) => {
   return (
     <Box
       sx={{
@@ -11,7 +12,10 @@ const Home = ({ route }) => {
       }}
     >
       <Link href='/' sx={{ '&:hover': { opacity: 1 }, border: 'none' }}>
+        <a tabIndex={-1} >
         <IconButton
+          onClick={() => {if (route === '/') setExpanded(false)}}
+          aria-label='home'
           sx={{
             width: [62, 52, 52, 72],
             height: [62, 52, 52, 72],
@@ -37,6 +41,7 @@ const Home = ({ route }) => {
             <path d='M47.3,19.3h-9.5c-3.5,0-6.3,2.8-6.3,6.3v22.1c0-2.6,2.1-4.7,4.7-4.7h11.1V19.3z' />{' '}
           </Box>
         </IconButton>
+        </a>
       </Link>
     </Box>
   )
