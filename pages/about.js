@@ -3,16 +3,19 @@ import { Column, Row, Layout } from '../components'
 
 const About = () => {
   return (
-    <Layout route='/about'>
+    <Layout title='Peter C. Baker – About' route='/about'>
       <Row sx={{ mt: [8, 9, 9, 11] }}>
         <Column
           start={[1, 1, 2, 2]}
           width={[5, 6, 5, 5]}
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
-          <Link href='/novel'><i>Planes</i></Link> is my first novel. I started it in
-          graduate school at the University of North Carolina-Wilmington, and
-          while finishing it I worked as a babysitter, teacher, and{' '}
+          <Link href='/novel'>
+            <i>Planes</i>
+          </Link>{' '}
+          is my first novel. I started it in graduate school at the University
+          of North Carolina-Wilmington, and while finishing it I worked as a
+          babysitter, teacher, and{' '}
           <Link href='/other-writing'>magazine journalist</Link>. I live in
           Evanston, Illinois with my wife and son.
         </Column>

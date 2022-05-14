@@ -3,7 +3,7 @@ import { Layout } from '../components'
 
 const Index = () => {
   return (
-    <Layout route='/' margin={false}>
+    <Layout title='Peter C. Baker' route='/' margin={false}>
       <Flex
         sx={{
           width: [

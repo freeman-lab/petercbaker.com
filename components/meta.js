@@ -1,9 +1,10 @@
 import Head from 'next/head'
 
-const Meta = () => {
-  const titleProp = 'Peter C. Baker'
-  const descriptionProp = ''
-  const cardProp = ''
+const Meta = ({ title }) => {
+  const titleProp = title
+  const descriptionProp =
+    'Evanston, Illinois-based author of the novel Planes. Contributor to The Guardian, The New York Review of Books, The New Yorker, and more.'
+  const cardProp = '/social.png'
 
   return (
     <Head>

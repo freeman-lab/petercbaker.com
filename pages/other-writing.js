@@ -47,7 +47,7 @@ const contents = [
 
 const OtherWriting = () => {
   return (
-    <Layout route='/other-writing'>
+    <Layout title='Peter C. Baker – Other Writing' route='/other-writing'>
       <Row sx={{ mt: [8, 9, 9, 11] }}>
         <Column
           start={[1, 1, 2, 2]}
@@ -67,8 +67,8 @@ const OtherWriting = () => {
           <Link href='https://www.newyorker.com/contributors/peter-c-baker'>
             <i>New Yorker</i>
           </Link>
-          . I also write frequently for <i>New York Times Magazine</i>.
-          Below, I’ve linked to some favorites.
+          . I also write frequently for <i>New York Times Magazine</i>. Below,
+          I’ve linked to some favorites.
         </Column>
       </Row>
       <Row sx={{ mt: [6, 7, 7, 9] }}>

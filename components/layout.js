@@ -6,11 +6,11 @@ import Label from './label'
 import FadeIn from './fade-in'
 import Meta from './meta'
 
-const Layout = ({ children, margin = true, route }) => {
+const Layout = ({ children, title, margin = true, route }) => {
   return (
     <>
       <Guide />
-      <Meta />
+      <Meta title={title} />
       <Menu route={route} />
       <FadeIn>
         <Label route={route} />

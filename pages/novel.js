@@ -56,7 +56,7 @@ const Novel = () => {
   const { x, y } = useWindowScroll()
 
   return (
-    <Layout route='/novel'>
+    <Layout title='Peter C. Baker – Novel' route='/novel'>
       <Row sx={{ mt: [8, 9, 9, 11] }}>
         <Column start={[1, 1, 2, 2]} width={[5, 6, 5, 5]}>
           <Box sx={{ fontSize: [4, 4, 4, 5], mb: [4] }}>

@@ -41,7 +41,7 @@ const reviews = [
 
 const PressAndEvents = () => {
   return (
-    <Layout route='/press-and-events'>
+    <Layout title='Peter C. Baker – Press & Events' route='/press-and-events'>
       <Row sx={{ mt: [8, 9, 9, 11] }}>
         <Column
           start={[1, 1, 2, 2]}
@@ -128,7 +128,12 @@ const PressAndEvents = () => {
       <Image
         sx={{
           objectFit: 'cover',
-          objectPosition: ['30% center', 'center center', 'center center', 'center center'],
+          objectPosition: [
+            '30% center',
+            'center center',
+            'center center',
+            'center center',
+          ],
           height: 'calc(100vh)',
           opacity: 1,
           position: 'fixed',
