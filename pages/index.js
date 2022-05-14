@@ -49,20 +49,19 @@ const Index = () => {
           opacity: 0,
         }}
       />
-      <Image
-        sx={{
-          objectFit: 'cover',
-          objectPosition: 'center center',
-          height: 'calc(100vh)',
-          position: 'fixed',
-          left: 0,
-          top: 0,
-          width: '100%',
-          zIndex: -2,
-          transform: 'rotate(180deg)',
-        }}
-        src='/intro.gif'
-      />
+      <Box as='video' autoPlay loop muted playIinline sx={{
+        position: 'fixed',
+        left: 0,
+        top: 0,
+        height: '100%',
+        objectFit: 'cover',
+        objectPosition: 'center center',
+        width: '100%',
+        zIndex: -2
+      }}>
+        <source src="intro.webm" type="video/webm"/>
+        <source src="intro.mp4" type="video/mp4"/>
+      </Box>
     </Layout>
   )
 }
