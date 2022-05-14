@@ -67,7 +67,7 @@ const OtherWriting = () => {
           <Link href='https://www.newyorker.com/contributors/peter-c-baker'>
             <i>New Yorker</i>
           </Link>
-          . I also write frequently for <i>The New York Times</i> magazine.
+          . I also write frequently for <i>New York Times Magazine</i>.
           Below, I’ve linked to some favorites.
         </Column>
       </Row>
