@@ -8,14 +8,14 @@ const events = [
     time: 'June 4 @ 6pm',
     venue: 'Bookends & Beginnings',
     location: 'Evanston, IL',
-    summary: 'Reading and Q+A with Diego Báez @ at Bookends & Beginnings',
+    summary: 'Reading and Q+A with Diego Báez at Bookends & Beginnings',
     url: 'https://www.bookendsandbeginnings.com/event/peter-c-baker-conversation-diego-b%C3%A1ez-planes',
   },
   {
     time: 'June 7 @ 6pm',
     location: 'Chicago, IL (virtual)',
     summary:
-      "w/ Phil Klay and The Point magazine @ at Chicago's Seminary Co-op Bookstore",
+      "w/ Phil Klay and The Point magazine at Chicago's Seminary Co-op Bookstore",
   },
 ]
 

@@ -10,7 +10,7 @@ const About = () => {
           width={[5, 6, 5, 5]}
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
-          <Link href='/novel'>Planes</Link> is my first novel. I started it in
+          <Link href='/novel'><i>Planes</i></Link> is my first novel. I started it in
           graduate school at the University of North Carolina-Wilmington, and
           while finishing it I worked as a babysitter, teacher, and{' '}
           <Link href='/other-writing'>magazine journalist</Link>. I live in
