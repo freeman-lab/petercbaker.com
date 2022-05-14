@@ -24,19 +24,19 @@ const About = () => {
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
           <Box>
-            <i>Twitter</i>:{' '}
+            <i>twitter</i>:{' '}
             <Link href='https://twitter.com/apcbapcb'>@apcbapcb</Link>
           </Box>
           <Box>
-            <i>Newsletter</i>:{' '}
+            <i>newsletter</i>:{' '}
             <Link href='https://petercbaker.substack.com/'>@substack</Link>
           </Box>
           <Box>
-            <i>Agent</i>:{' '}
+            <i>agent</i>:{' '}
             <Link href='mailto:cclemans@janklow.com'>Chris Clemans</Link>
           </Box>
           <Box>
-            <i>Publicist</i>:{' '}
+            <i>publicist</i>:{' '}
             <Link href='mailto:snisbet@penguinrandomhouse.com'>
               Sarah Nisbet
             </Link>
