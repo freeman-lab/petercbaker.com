@@ -21,7 +21,7 @@ const contents = [
   {
     source: 'Rebecca Lee',
     review:
-      'This novel stunned me with its gravity and its wisdom, its sense of life’s turbulence and mystery. Baker is an absolutely brilliant writer — in a league with Ferrante and DeLillo — with a deep understanding of the interwoven, intercon- nected web that holds the entire world in its grasp. He also has a novelist’s eye for the moment at hand, how it spreads and fills with love and stops time . . . In Baker’s hands, an endlessly interesting, somewhat treacherous truth emerges; we are implicated in each other’s lives, and all drink from the same rich and complex well.',
+      'This novel stunned me with its gravity and its wisdom, its sense of life’s turbulence and mystery. Baker is an absolutely brilliant writer — in a league with Ferrante and DeLillo — with a deep understanding of the interwoven, interconnected web that holds the entire world in its grasp. He also has a novelist’s eye for the moment at hand, how it spreads and fills with love and stops time . . . In Baker’s hands, an endlessly interesting, somewhat treacherous truth emerges; we are implicated in each other’s lives, and all drink from the same rich and complex well.',
   },
 ]
 
@@ -113,7 +113,7 @@ const Novel = () => {
           width: '100%',
           height: '100%',
           zIndex: -1,
-          opacity: 0.1,
+          opacity: 0.15,
         }}
       />
       <Image

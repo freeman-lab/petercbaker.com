@@ -44,6 +44,12 @@ const About = () => {
               Sarah Nisbet
             </Link>
           </Box>
+          <Box>
+            <i>photographer</i>:{' '}
+            <Link href='https://www.jonmichaelphoto.com/'>
+              Jonathan Castillo 
+            </Link>
+          </Box>
         </Column>
       </Row>
       <Box

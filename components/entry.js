@@ -54,7 +54,6 @@ const Entry = ({ data }) => {
         )}
         <Box
           sx={{
-            textShadow: ({ colors }) => `0px 0px 20px ${colors.background}`,
             fontSize: [3, 3, 3, 4],
             mt: [2, 2, 2, 3],
           }}
