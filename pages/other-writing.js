@@ -67,15 +67,14 @@ const OtherWriting = () => {
           <Link href='https://www.newyorker.com/contributors/peter-c-baker'>
             <i>New Yorker</i>
           </Link>
-          . I also write frequently for <i>New York Times Magazine</i>. Below,
-          I’ve linked to some favorites.
+          . I also write frequently for <i>New York Times Magazine</i>.<br/><br/>Some recent favorites:
         </Column>
       </Row>
-      <Row sx={{ mt: [6, 7, 7, 9] }}>
+      <Row sx={{ mt: [5, 6, 6, 7] }}>
         <Column
           start={[1, 1, 2, 2]}
           width={[6, 3, 4, 4]}
-          sx={{ mt: [3, 3, 6, 6] }}
+          sx={{ mt: [3, 3, 3, 6] }}
         >
           {contents
             .filter((d, i) => i % 2 == 0)
