@@ -49,7 +49,7 @@ const Index = () => {
           opacity: 0,
         }}
       />
-      <Box as='video' autoPlay loop muted playIinline sx={{
+      <Box as='video' autoPlay loop muted playsInline sx={{
         position: 'fixed',
         left: 0,
         top: 0,
