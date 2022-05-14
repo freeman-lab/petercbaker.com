@@ -128,7 +128,7 @@ const PressAndEvents = () => {
       <Image
         sx={{
           objectFit: 'cover',
-          objectPosition: 'center center',
+          objectPosition: ['30% center', 'center center', 'center center', 'center center'],
           height: 'calc(100vh)',
           opacity: 1,
           position: 'fixed',

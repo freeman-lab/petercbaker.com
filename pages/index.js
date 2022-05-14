@@ -13,7 +13,7 @@ const Index = () => {
             'calc(100% + 24px)',
           ],
           height: ['75vh', '80vh', '95vh', '95vh'],
-          alignItems: 'end',
+          alignItems: 'flex-end',
           ml: ['-6px', '-12px', '-20px', '-24px'],
         }}
       >
