@@ -10,37 +10,34 @@ const Home = ({ route }) => {
         zIndex: 1002,
       }}
     >
-      {route !== '/' && (
-        <Link href='/' sx={{ '&:hover': { opacity: 1 }, border: 'none' }}>
-          <IconButton
+      <Link href='/' sx={{ '&:hover': { opacity: 1 }, border: 'none' }}>
+        <IconButton
+          sx={{
+            width: [62, 52, 52, 72],
+            height: [62, 52, 52, 72],
+            cursor: 'pointer',
+            p: ['14px', 1, 1, 1],
+            m: ['-10px', 0, 0, 0],
+          }}
+        >
+          <Box
+            as='svg'
+            viewBox='0 0 63 63'
+            fill='none'
+            width='100%'
+            xmlns='http://www.w3.org/2000/svg'
             sx={{
-              width: [62, 52, 52, 72],
-              height: [62, 52, 52, 72],
-              cursor: 'pointer',
-              p: ['14px', 1, 1, 1],
-              m: ['-10px', 0, 0, 0],
+              fill: 'background',
+              stroke: 'primary',
+              strokeWidth: [2.75, 2.75, 2.75, 2.75],
             }}
           >
-            <Box
-              as='svg'
-              viewBox='0 0 63 63'
-              fill='none'
-              width='100%'
-              xmlns='http://www.w3.org/2000/svg'
-              sx={{
-                fill: 'background',
-                stroke: 'primary',
-                strokeWidth: [3, 3, 3, 3],
-              }}
-            >
-              <circle cx='31.5' cy='31.5' r='30.5' />
-              <line x1='11.5' y1='31.5' x2='51.5' y2='31.5' />
-              <path d='M11.6,31.4c0,0,17-2.5,18.9-17.6' />
-              <path d='M11.6,31.6c0,0,17,2.5,18.9,17.6' />
-            </Box>
-          </IconButton>
-        </Link>
-      )}
+            <circle cx='31.5' cy='31.5' r='30.5' />
+            <path d='M15.7,19.3h9.5c3.5,0,6.3,2.8,6.3,6.3v22.1c0-2.6-2.1-4.7-4.7-4.7H15.7V19.3z' />
+            <path d='M47.3,19.3h-9.5c-3.5,0-6.3,2.8-6.3,6.3v22.1c0-2.6,2.1-4.7,4.7-4.7h11.1V19.3z' />{' '}
+          </Box>
+        </IconButton>
+      </Link>
     </Box>
   )
 }

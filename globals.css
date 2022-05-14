@@ -2,3 +2,28 @@ body {
   overscroll-behavior: none;
   text-rendering: optimizeLegibility;
 }
+
+a:focus,
+button:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: dashed 1px rgb(110, 110, 110, 0.625);
+  background: rgb(110, 110, 110, 0.625);
+}
+
+::selection {
+  color: rgb(9, 8, 8);
+  background: #ebebec;
+}
+
+::-moz-selection {
+  color: rgb(9, 8, 8);
+  background: #ebebec;
+}

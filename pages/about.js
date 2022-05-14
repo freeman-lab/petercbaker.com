@@ -10,11 +10,11 @@ const About = () => {
           width={[5, 6, 5, 5]}
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
-          <Link href='/novel'>Planes</Link> is my first novel. My essays,
-          criticism, and journalism have been published by <i>The Guardian</i>,{' '}
-          <i>The New York Review of Books</i>, <i>The New Yorker</i>,{' '}
-          <i>The New York Times Magazine</i>, and elsewhere. I live in Evanston,
-          Illinois.
+          <Link href='/novel'>Planes</Link> is my first novel. I started it in
+          graduate school at the University of North Carolina-Wilmington, and
+          while finishing it I worked as a babysitter, teacher, and{' '}
+          <Link href='/other-writing'>magazine journalist</Link>. I live in
+          Evanston, Illinois with my wife and son.
         </Column>
       </Row>
       <Row sx={{ mt: [8] }}>
@@ -32,11 +32,14 @@ const About = () => {
             <Link href='https://petercbaker.substack.com/'>@substack</Link>
           </Box>
           <Box>
-            <i>Agent</i>: <Link href='cclemans@janklow.com'>Chris Clemans</Link>
+            <i>Agent</i>:{' '}
+            <Link href='mailto:cclemans@janklow.com'>Chris Clemans</Link>
           </Box>
           <Box>
-            <i>Publisher</i>:{' '}
-            <Link href='snisbet@penguinrandomhouse.com'>Sarah Nisbet</Link>
+            <i>Publicist</i>:{' '}
+            <Link href='mailto:snisbet@penguinrandomhouse.com'>
+              Sarah Nisbet
+            </Link>
           </Box>
         </Column>
       </Row>
@@ -49,7 +52,7 @@ const About = () => {
           width: '100%',
           height: '100%',
           zIndex: -1,
-          opacity: 0.4,
+          opacity: 0.1,
         }}
       />
       <Image

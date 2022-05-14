@@ -54,10 +54,14 @@ export const theme = {
         '&:active': {
           color: 'text',
         },
+        '&:hover': {
+          color: 'text',
+        },
       },
-      textDecoration: 'none',
-      borderBottom: ({colors}) => `solid 1px ${colors.primary}`,
+      textDecoration: 'underline',
+      textDecorationThickness: 'from-font',
       cursor: 'pointer',
+      transition: 'text-decoration 0.15s'
     },
     p: {
       fontSize: [3, 3, 3, 4],

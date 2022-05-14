@@ -9,7 +9,7 @@ const events = [
     venue: 'Bookends & Beginnings',
     location: 'Evanston, IL',
     summary: 'Reading and Q+A with Diego Báez hosted at Bookends & Beginnings',
-    url: 'https://www.bookendsandbeginnings.com/event/peter-c-baker-conversation-diego-b%C3%A1ez-planes'
+    url: 'https://www.bookendsandbeginnings.com/event/peter-c-baker-conversation-diego-b%C3%A1ez-planes',
   },
   {
     time: 'June 7 @ 6pm',
@@ -62,7 +62,10 @@ const PressAndEvents = () => {
             letterSpacing: '0.01em',
           }}
         >
-          <Row columns={[1, 1, 2, 2]} sx={{ mt: ['12px'] }}>
+          <Row
+            columns={[1, 1, 2, 2]}
+            sx={{ mt: ['12px', '12px', '12px', '18px'] }}
+          >
             <Column start={1} width={1}>
               {reviews
                 .filter((d, i) => i % 2 == 0)
@@ -100,7 +103,10 @@ const PressAndEvents = () => {
             letterSpacing: '0.01em',
           }}
         >
-          <Row columns={[1, 1, 2, 2]} sx={{ mt: ['12px'] }}>
+          <Row
+            columns={[1, 1, 2, 2]}
+            sx={{ mt: ['12px', '12px', '12px', '18px'] }}
+          >
             {events.map((d, i) => (
               <Event key={i} data={d} />
             ))}

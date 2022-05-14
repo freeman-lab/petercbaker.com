@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Box, Container, IconButton } from 'theme-ui'
 import { Row, Column } from '../components'
 import { alpha } from '@theme-ui/color'
+import Home from './home'
 
 const sx = {
   menu: {
@@ -89,6 +90,7 @@ const Menu = ({ route }) => {
           backdropFilter: 'blur(12px) opacity(1)',
         }}
       >
+        <Home route={route} />
         <Container>
           <Row>
             <Column start={[2, 2, 3, 3]} width={[5, 6, 8, 8]}>

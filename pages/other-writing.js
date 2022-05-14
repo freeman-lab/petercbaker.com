@@ -5,11 +5,24 @@ import Halo from '../components/halo'
 
 const contents = [
   {
+    title: 'This, Too, Was History',
+    source: 'The Point',
+    summary:
+      'Dispatch from Chicago on police torture, reparations, and high school history class.',
+    url: '/',
+  },
+  {
     title: 'Death Drives',
     source: 'New York Review of Books',
     summary:
       'Review essay about US pedestrian fatalities and car/street culture during the pandemic.',
     url: 'https://www.nybooks.com/articles/2021/07/22/death-drives-pedestrian-fatalities/',
+  },
+  {
+    title: 'A Legacy of Torture in Chicago',
+    source: 'New York Review of Books',
+    summary: 'Review-essay on Laurence Ralph’s “The Torture Letters.”',
+    url: 'https://www.nybooks.com/articles/2020/07/02/legacy-police-torture-chicago/',
   },
   {
     title: 'The Bloodhound',
@@ -19,30 +32,15 @@ const contents = [
     url: 'https://www.nybooks.com/articles/2021/03/11/nicholson-baker-bloodhound/',
   },
   {
-    title: 'A Legacy of Torture in Chicago',
-    source: 'New York Review of Books',
-    summary: 'Review-essay on Laurence Ralph’s “The Torture Letters.”',
-    url: 'https://www.nybooks.com/articles/2020/07/02/legacy-police-torture-chicago/'
-  },
-  {
-    title: 'This, Too, Was History',
-    source: 'The Point',
-    summary:
-      'Dispatch from Chicago on police torture, reparations, and high school history class.',
-    url: '/',
-  },
-  {
     title: 'Collision Course',
     source: 'The Guardian',
-    summary:
-      'Essay on Silicon Valley and the pedestrian death crisis.',
+    summary: 'Essay on Silicon Valley and the pedestrian death crisis.',
     url: 'https://www.theguardian.com/technology/2019/oct/03/collision-course-pedestrian-deaths-rising-driverless-cars',
   },
   {
-    title: 'We The People',
+    title: '‘We The People’',
     source: 'The Guardian',
-    summary:
-      'Essay on what we talk about when we talk about “populism.”',
+    summary: 'Essay on what we talk about when we talk about “populism.”',
     url: 'https://www.theguardian.com/news/2019/jan/10/we-the-people-the-battle-to-define-populism',
   },
 ]
@@ -56,8 +54,8 @@ const OtherWriting = () => {
           width={[5, 5, 5, 5]}
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
-          You can find my freelance writing about torture, the horrors of car
-          culture, books, music, and many other topics on my author pages at{' '}
+          You can find my writing about torture, the horrors of car culture,
+          books, music, and other topics on my author pages at{' '}
           <Link href='https://www.theguardian.com/profile/peter-c-baker'>
             <i>The Guardian</i>
           </Link>
@@ -70,7 +68,7 @@ const OtherWriting = () => {
             <i>New Yorker</i>
           </Link>
           . I also write frequently for <i>The New York Times</i> magazine.
-          Below, I’ve linked to some recent favorites.
+          Below, I’ve linked to some favorites.
         </Column>
       </Row>
       <Row sx={{ mt: [6, 7, 7, 9] }}>

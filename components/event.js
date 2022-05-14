@@ -11,6 +11,7 @@ const Event = ({ data }) => {
               transform: 'rotate(45deg) translate(3px,-3px)',
             },
           },
+          textDecoration: 'none',
         }}
       >
         <Box sx={{ fontSize: [4, 4, 4, 5] }}>{data.location}</Box>
@@ -32,7 +33,13 @@ const Event = ({ data }) => {
           </Box>
         </Box>
 
-        <Box sx={{ fontSize: [3, 3, 3, 4], mt: [2, 2, 2, 3], textShadow: ({colors}) => `0px 0px 20px ${colors.background}` }}>
+        <Box
+          sx={{
+            fontSize: [3, 3, 3, 4],
+            mt: [2, 2, 2, 3],
+            textShadow: ({ colors }) => `0px 0px 20px ${colors.background}`,
+          }}
+        >
           {data.summary}
         </Box>
       </Link>

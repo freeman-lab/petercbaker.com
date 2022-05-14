@@ -4,12 +4,13 @@ import Home from './home'
 import Guide from './guide'
 import Label from './label'
 import FadeIn from './fade-in'
+import Meta from './meta'
 
 const Layout = ({ children, margin = true, route }) => {
   return (
     <>
       <Guide />
-      <Home route={route} />
+      <Meta />
       <Menu route={route} />
       <FadeIn>
         <Label route={route} />
