@@ -47,7 +47,7 @@ const PressAndEvents = () => {
           start={[1, 1, 2, 2]}
           width={[6, 3, 2, 2]}
           sx={{
-            mt: [0, -2, -2, -2],
+            mt: ['-13px', -2, -2, -2],
             fontSize: [6, 6, 6, 7],
             letterSpacing: '0.01em',
           }}

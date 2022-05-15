@@ -94,7 +94,7 @@ const Menu = ({ route }) => {
         <Home route={route} setExpanded={setExpanded} />
         <Container>
           <Row>
-            <Column start={[2, 2, 3, 3]} width={[5, 6, 8, 8]}>
+            <Column start={[2, 2, 3, 3]} width={[4, 6, 8, 8]}>
               <Box sx={{ mt: [8, 8, 9, 11] }}>
                 <Link href='/about' passHref>
                   <ThemedLink sx={{ textDecoration: 'none' }}>
