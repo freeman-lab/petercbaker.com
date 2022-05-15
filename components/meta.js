@@ -11,7 +11,11 @@ const Meta = ({ title }) => {
       <title>{titleProp}</title>
       <meta name='description' content={descriptionProp} />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <link rel='icon' type='image/svg+xml' href='https://images.freeman.land/petercbaker/favicon.svg' />
+      <link
+        rel='icon'
+        type='image/svg+xml'
+        href='https://images.freeman.land/petercbaker/favicon.svg'
+      />
       <link
         rel='preload'
         href='https://fonts.freeman.land/arizona-flare/ABCArizonaFlare-Light.woff2'
@@ -34,8 +38,16 @@ const Meta = ({ title }) => {
         crossOrigin='anonymous'
       />
       <meta name='theme-color' content='#000000' />
-      <link rel='alternate icon' type='image/png' href='https://images.freeman.land/petercbaker/favicon.png' />
-      <link rel='mask-icon' href='https://images.freeman.land/petercbaker/favicon.svg' color='#F4F4F4' />
+      <link
+        rel='alternate icon'
+        type='image/png'
+        href='https://images.freeman.land/petercbaker/favicon.png'
+      />
+      <link
+        rel='mask-icon'
+        href='https://images.freeman.land/petercbaker/favicon.svg'
+        color='#F4F4F4'
+      />
       <link
         rel='apple-touch-icon'
         sizes='180x180'

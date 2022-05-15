@@ -67,7 +67,9 @@ const OtherWriting = () => {
           <Link href='https://www.newyorker.com/contributors/peter-c-baker'>
             <i>New Yorker</i>
           </Link>
-          . I also write frequently for <i>New York Times Magazine</i>.<br/><br/>Some recent favorites:
+          . I also write frequently for <i>New York Times Magazine</i>.<br />
+          <br />
+          Some recent favorites:
         </Column>
       </Row>
       <Row sx={{ mt: [5, 6, 6, 7] }}>

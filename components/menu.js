@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Link from 'next/link'
-import { Box, Container, Link as ThemedLink, IconButton } from 'theme-ui'
+import { default as NextLink } from 'next/link'
+import { Box, Container, Link, IconButton } from 'theme-ui'
 import { Row, Column } from '../components'
 import { alpha } from '@theme-ui/color'
 import Home from './home'
@@ -96,46 +96,46 @@ const Menu = ({ route }) => {
           <Row>
             <Column start={[2, 2, 3, 3]} width={[4, 6, 8, 8]}>
               <Box sx={{ mt: [8, 8, 9, 11] }}>
-                <Link href='/about' passHref>
-                  <ThemedLink sx={{ textDecoration: 'none' }}>
+                <NextLink href='/about' passHref>
+                  <Link sx={{ textDecoration: 'none' }}>
                     <Box
                       sx={sx.menu}
                       onClick={onClick(route, '/about', setExpanded)}
                     >
                       About
                     </Box>
-                  </ThemedLink>
-                </Link>
-                <Link href='/novel' passHref>
-                  <ThemedLink sx={{ textDecoration: 'none' }}>
+                  </Link>
+                </NextLink>
+                <NextLink href='/novel' passHref>
+                  <Link sx={{ textDecoration: 'none' }}>
                     <Box
                       sx={sx.menu}
                       onClick={onClick(route, '/novel', setExpanded)}
                     >
                       Novel
                     </Box>
-                  </ThemedLink>
-                </Link>
-                <Link href='/press-and-events' passHref>
-                  <ThemedLink sx={{ textDecoration: 'none' }}>
+                  </Link>
+                </NextLink>
+                <NextLink href='/press-and-events' passHref>
+                  <Link sx={{ textDecoration: 'none' }}>
                     <Box
                       sx={sx.menu}
                       onClick={onClick(route, '/press-and-events', setExpanded)}
                     >
                       Press & Events
                     </Box>
-                  </ThemedLink>
-                </Link>
-                <Link href='/other-writing' passHref>
-                  <ThemedLink sx={{ textDecoration: 'none' }}>
+                  </Link>
+                </NextLink>
+                <NextLink href='/other-writing' passHref>
+                  <Link sx={{ textDecoration: 'none' }}>
                     <Box
                       sx={sx.menu}
                       onClick={onClick(route, '/other-writing', setExpanded)}
                     >
                       Other Writing
                     </Box>
-                  </ThemedLink>
-                </Link>
+                  </Link>
+                </NextLink>
               </Box>
             </Column>
           </Row>

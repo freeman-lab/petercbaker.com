@@ -1,3 +1,4 @@
+import { default as NextLink } from 'next/link'
 import { Box, Image, Grid, Link, Flex, Container } from 'theme-ui'
 import { Column, Row, Layout } from '../components'
 
@@ -10,14 +11,18 @@ const About = () => {
           width={[5, 6, 5, 5]}
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
-          <Link href='/novel'>
-            <i>Planes</i>
-          </Link>{' '}
+          <NextLink href='/novel' passHref>
+            <Link>
+              <i>Planes</i>
+            </Link>
+          </NextLink>{' '}
           is my first novel. I started it in graduate school at the University
           of North Carolina-Wilmington, and while finishing it I worked as a
           babysitter, teacher, and{' '}
-          <Link href='/other-writing'>magazine journalist</Link>. I live in
-          Evanston, Illinois with my wife and son.
+          <NextLink href='/other-writing' passHref>
+            <Link>magazine journalist</Link>
+          </NextLink>
+          . I live in Evanston, Illinois with my wife and son.
         </Column>
       </Row>
       <Row sx={{ mt: [8] }}>
@@ -27,12 +32,12 @@ const About = () => {
           sx={{ fontSize: [4, 4, 4, 5] }}
         >
           <Box>
-            <i>twitter</i>:{' '}
-            <Link href='https://twitter.com/apcbapcb'>@apcbapcb</Link>
+            <i>twitter</i>: @
+            <Link href='https://twitter.com/apcbapcb'>apcbapcb</Link>
           </Box>
           <Box>
-            <i>newsletter</i>:{' '}
-            <Link href='https://petercbaker.substack.com/'>@substack</Link>
+            <i>newsletter</i>: @
+            <Link href='https://petercbaker.substack.com/'>substack</Link>
           </Box>
           <Box>
             <i>agent</i>:{' '}
@@ -47,7 +52,7 @@ const About = () => {
           <Box>
             <i>photographer</i>:{' '}
             <Link href='https://www.jonmichaelphoto.com/'>
-              Jonathan Castillo 
+              Jonathan Castillo
             </Link>
           </Box>
         </Column>

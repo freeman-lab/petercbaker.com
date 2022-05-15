@@ -14,8 +14,7 @@ const events = [
   {
     time: 'June 7 @ 6pm',
     location: 'Chicago, IL (virtual)',
-    summary:
-      "w/ Phil Klay and The Point magazine at Seminary Co-op Bookstore",
+    summary: 'w/ Phil Klay and The Point magazine at Seminary Co-op Bookstore',
   },
 ]
 
