@@ -29,7 +29,7 @@ const contents = [
 const Review = ({ data }) => {
   return (
     <Box sx={{ mb: [6, 6, 6, 7] }}>
-      <Box sx={{ fontSize: [10], mb: [-7], color: 'teal' }}>“</Box>
+      <Box sx={{ fontSize: [10], mb: ['-80px'], ml: ['-5px'], color: 'teal' }}>“</Box>
       <Box
         sx={{
           textShadow: ({ colors }) =>
@@ -38,7 +38,7 @@ const Review = ({ data }) => {
           position: 'relative',
         }}
       >
-        {data.review}
+        {data.review}”
       </Box>
       <Box
         sx={{
