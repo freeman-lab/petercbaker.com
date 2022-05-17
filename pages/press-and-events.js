@@ -20,6 +20,12 @@ const events = [
 
 const reviews = [
   {
+    source: "Harper's",
+    summary:
+      '“Deft and engaging ....illuminates urgent questions in unexpected ways.” (by Claire Messud)',
+    url: 'https://harpers.org/archive/2022/06/new-books-june-2022/',
+  },
+  {
     source: 'Kirkus Reviews',
     summary:
       '“Affecting ... A thoughtful look at the small-scale fallout of an international issue.” (Starred Review)',
