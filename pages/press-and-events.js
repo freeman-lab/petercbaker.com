@@ -22,7 +22,7 @@ const reviews = [
   {
     source: "Harper's",
     summary:
-      '“Deft and engaging ....illuminates urgent questions in unexpected ways.” (by Claire Messud)',
+      '“Deft and engaging ....illuminates urgent questions in unexpected ways.” (Claire Messud)',
     url: 'https://harpers.org/archive/2022/06/new-books-june-2022/',
   },
   {
