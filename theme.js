@@ -24,7 +24,7 @@ export const theme = {
     secondary: '#808080',
     teal: '#4E9EB1',
     tan: '#D4B7A0',
-    purple: '#8375B4'
+    purple: '#8375B4',
   },
   layout: {
     container: {
@@ -61,7 +61,7 @@ export const theme = {
       textDecoration: 'underline',
       textDecorationThickness: 'from-font',
       cursor: 'pointer',
-      transition: 'text-decoration 0.15s'
+      transition: 'text-decoration 0.15s',
     },
     p: {
       fontSize: [3, 3, 3, 4],
