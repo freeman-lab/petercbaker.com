@@ -9,7 +9,7 @@ const contents = [
     source: 'The Point',
     summary:
       'Dispatch from Chicago on police torture, reparations, and high school history class.',
-    url: '/',
+    url: 'https://thepointmag.com/politics/this-too-was-history-battle-police-torture-reparations-chicago-schools/',
   },
   {
     title: 'Death Drives',

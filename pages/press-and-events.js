@@ -6,7 +6,6 @@ import Event from '../components/event'
 const events = [
   {
     time: 'June 4 @ 6pm',
-    venue: 'Bookends & Beginnings',
     location: 'Evanston, IL',
     summary: 'Reading and Q+A with Diego Báez at Bookends & Beginnings',
     url: 'https://www.bookendsandbeginnings.com/event/peter-c-baker-conversation-diego-b%C3%A1ez-planes',
@@ -15,6 +14,7 @@ const events = [
     time: 'June 7 @ 6pm',
     location: 'Chicago, IL (virtual)',
     summary: 'w/ Phil Klay and The Point magazine at Seminary Co-op Bookstore',
+    url: 'https://thepointmag.com/events/narrating-the-war-on-terror/'
   },
 ]
 
