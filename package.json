@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "prettier": "prettier --write '{components,pages}/**/*.js'"
+    "prettier": "prettier --write '{components,pages,data}/**/*.{js,json}'"
   },
   "repository": {
     "type": "git",

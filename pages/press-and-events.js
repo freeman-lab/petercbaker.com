@@ -2,47 +2,8 @@ import { Box, Image, Grid, Link, Flex, Container } from 'theme-ui'
 import { Column, Row, Layout } from '../components'
 import Entry from '../components/entry'
 import Event from '../components/event'
-
-const events = [
-  {
-    time: 'June 4 @ 6pm',
-    location: 'Evanston, IL',
-    summary: 'Reading and Q+A with Diego Báez at Bookends & Beginnings',
-    url: 'https://www.bookendsandbeginnings.com/event/peter-c-baker-conversation-diego-b%C3%A1ez-planes',
-  },
-  {
-    time: 'June 7 @ 6pm',
-    location: 'Chicago, IL (virtual)',
-    summary: 'w/ Phil Klay and The Point magazine at Seminary Co-op Bookstore',
-    url: 'https://thepointmag.com/events/narrating-the-war-on-terror/'
-  },
-]
-
-const reviews = [
-  {
-    source: "Harper's",
-    summary:
-      '“Deft and engaging ....illuminates urgent questions in unexpected ways.” (Claire Messud)',
-    url: 'https://harpers.org/archive/2022/06/new-books-june-2022/',
-  },
-  {
-    source: 'Kirkus Reviews',
-    summary:
-      '“Affecting ... A thoughtful look at the small-scale fallout of an international issue.” (Starred Review)',
-    url: 'https://www.kirkusreviews.com/book-reviews/peter-c-baker/planes/',
-  },
-  {
-    source: "Publisher's Weekly",
-    summary:
-      '“Arresting ... Baker masterfully juggles the two concurrent storylines, never losing the urgency of either ... Along the way, the author digs deep into the nuances of love, pain, betrayal, and the promise of deliverance. This moving debut buzzes with relevance.” (Starred Review)',
-    url: 'https://www.publishersweekly.com/978-0-593-32027-3',
-  },
-  {
-    source: 'Booklist',
-    summary:
-      '“Beautifully written ... Assured ... A tale that unfurls like a thriller.”',
-  },
-]
+import { default as events } from '../data/events'
+import { default as reviews } from '../data/reviews'
 
 const PressAndEvents = () => {
   return (
