@@ -44,6 +44,12 @@ const About = () => {
             <Link href='mailto:cclemans@janklow.com'>Chris Clemans</Link>
           </Box>
           <Box>
+            <i>film/tv</i>:{' '}
+            <Link href='mailto:kassie@anonymouscontent.com'>
+              Kassie Evashevski
+            </Link>
+          </Box>
+          <Box>
             <i>publicist</i>:{' '}
             <Link href='mailto:snisbet@penguinrandomhouse.com'>
               Sarah Nisbet
@@ -51,7 +57,7 @@ const About = () => {
           </Box>
           <Box>
             <i>photographer</i>:{' '}
-            <Link href='https://www.jonmichaelphoto.com/'>
+            <Link href='https://www.jonmichaelphoto.com'>
               Jonathan Castillo
             </Link>
           </Box>
