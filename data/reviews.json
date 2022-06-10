@@ -5,9 +5,9 @@
     "url": "https://nyti.ms/3wWBrcM"
   },
   {
-    "source": "Minneapolis Star Tribune",
-    "summary": "“A subtle portrait of two women who've been robbed of things they might never recover.”",
-    "url": "https://www.startribune.com/review-planes-by-peter-c-baker/600177013/"
+    "source": "Wall Street Journal", 
+    "summary": "“Subtle and unsettling.” (Sam Sacks)",
+    "url": "https://www.wsj.com/articles/fiction-book-review-peter-c-baker-planes-leila-mottley-nightcrawling-visitors-jessi-jezewska-stevens-11654263828"
   },
   {
     "source": "Harper's",
@@ -15,14 +15,14 @@
     "url": "https://harpers.org/archive/2022/06/new-books-june-2022/"
   },
   {
-    "source": "Kirkus Reviews",
-    "summary": "“Affecting ... A thoughtful look at the small-scale fallout of an international issue.” (Starred Review)",
-    "url": "https://www.kirkusreviews.com/book-reviews/peter-c-baker/planes/"
-  },
-  {
     "source": "Chicago Tribune",
     "summary": "“Reads like vintage DeLillo.”",
     "url": "“https://www.chicagotribune.com/entertainment/ct-ent-summer-book-preview-2022-20220526-ujdeowz6wjanjekmvmntnvysie-story.html"
+  },
+  {
+    "source": "Kirkus Reviews",
+    "summary": "“Affecting ... A thoughtful look at the small-scale fallout of an international issue.” (Starred Review)",
+    "url": "https://www.kirkusreviews.com/book-reviews/peter-c-baker/planes/"
   },
   {
     "source": "Publisher's Weekly",
@@ -32,5 +32,10 @@
   {
     "source": "Booklist",
     "summary": "“Beautifully written ... Assured ... A tale that unfurls like a thriller.”"
+  },
+  {
+    "source": "Minneapolis Star Tribune",
+    "summary": "“A subtle portrait of two women who've been robbed of things they might never recover.”",
+    "url": "https://www.startribune.com/review-planes-by-peter-c-baker/600177013/"
   }
 ]
