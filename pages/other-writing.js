@@ -20,7 +20,7 @@ const OtherWriting = () => {
           </Link>
           ,{' '}
           <Link href='https://www.nybooks.com/contributors/peter-c-baker/'>
-            <i>The New Review of Books</i>
+            <i>The New York Review of Books</i>
           </Link>
           , and the{' '}
           <Link href='https://www.newyorker.com/contributors/peter-c-baker'>
