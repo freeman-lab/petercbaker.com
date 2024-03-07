@@ -22,7 +22,7 @@ const About = () => {
           <NextLink href='/other-writing' passHref>
             <Link>magazine journalist</Link>
           </NextLink>
-          . I live in Evanston, Illinois with my wife and son.
+          . I live in Evanston, Illinois with my wife and two kids.
         </Column>
       </Row>
       <Row sx={{ mt: [8] }}>
@@ -51,8 +51,8 @@ const About = () => {
           </Box>
           <Box>
             <i>publicist</i>:{' '}
-            <Link href='mailto:snisbet@penguinrandomhouse.com'>
-              Sarah Nisbet
+            <Link href='mailto:kshi@penguinrandomhouse.com'>
+              Kelly Shi
             </Link>
           </Box>
           <Box>
