@@ -26,7 +26,7 @@ const OtherWriting = () => {
           <Link href='https://www.newyorker.com/contributors/peter-c-baker'>
             <i>New Yorker</i>
           </Link>
-          . I also write frequently for <i>New York Times Magazine</i>.<br />
+          . I also write frequently for <i>The New York Times Magazine</i>, and run the music newsletter <Link href='https://tracksontracks.substack.com/'>Tracks on Tracks</Link>.<br />
           <br />
           Some recent favorites:
         </Column>

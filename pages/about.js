@@ -22,7 +22,7 @@ const About = () => {
           <NextLink href='/other-writing' passHref>
             <Link>magazine journalist</Link>
           </NextLink>
-          . I live in Evanston, Illinois with my wife and two kids.
+          . I live in Evanston, Illinois with my wife and two kids, and put out the music newsletter <Link href='https://tracksontracks.substack.com/'>Tracks on Tracks</Link>.
         </Column>
       </Row>
       <Row sx={{ mt: [8] }}>
@@ -36,7 +36,7 @@ const About = () => {
             <Link href='https://twitter.com/apcbapcb'>apcbapcb</Link>
           </Box>
           <Box>
-            <i>newsletter</i>: @
+            <i>updates</i>: @
             <Link href='https://petercbaker.substack.com/'>substack</Link>
           </Box>
           <Box>
